@@ -78,10 +78,10 @@ app/
 
 Mock auth using localStorage. Two demo accounts are seeded on first visit:
 
-| Email               | Password      |
-|---------------------|---------------|
-| demo@example.com    | demo1234      |
-| russo@example.com   | password123   |
+| Email             | Password    |
+| ----------------- | ----------- |
+| demo@example.com  | demo1234    |
+| russo@example.com | password123 |
 
 New accounts can be registered and persist across sessions.  
 Session is stored in localStorage — no backend required.
@@ -114,15 +114,18 @@ Framer Motion powers all transitions:
 
 ## API Routes
 
-| Route              | Method | Description                     |
-|--------------------|--------|---------------------------------|
-| `/api/search?q=`   | GET    | Proxies TMDB movie search       |
-| `/api/movie/[id]`  | GET    | Proxies TMDB movie details      |
+| Route             | Method | Description                |
+| ----------------- | ------ | -------------------------- |
+| `/api/search?q=`  | GET    | Proxies TMDB movie search  |
+| `/api/movie/[id]` | GET    | Proxies TMDB movie details |
 
 Both routes keep the TMDB API key on the server.
 
 ## Environment Variables
 
-| Variable       | Required | Description         |
-|----------------|----------|---------------------|
-| `TMDB_API_KEY` | Yes      | Your TMDB API key   |
+| Variable       | Required | Description       |
+| -------------- | -------- | ----------------- |
+| `TMDB_API_KEY` | Yes      | Your TMDB API key |
+
+Video Link:
+https://www.loom.com/share/33fbdb3e73bd4e2b89f175bb73f0a4fc
